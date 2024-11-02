@@ -8,19 +8,25 @@ namespace SeleniumMarken
     {
         static void Main(string[] args)
         {
-            //TestHidingButton();
+            TestHidingButton();
             //TestClickTwice();
-            TestHiddenButtons();
+            //TestHiddenButtons();
         }
 
         private static void TestHidingButton()
         {
-            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+            //koolis
+            //string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+            //kodus
+            string binaryLocation = "C:\\Users\\kasutaja\\Desktop\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
             FirefoxOptions options = new FirefoxOptions();
             options.BrowserExecutableLocation = binaryLocation;
 
-            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            //koolis
+            //IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            //kodus
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\SeleniumMarken\\drivers", options);
             driver.Url = "http://www.uitestingplayground.com/scrollbars";
 
             IWebElement element = driver.FindElement(By.Id("hidingButton"));
