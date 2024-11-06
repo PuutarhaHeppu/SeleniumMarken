@@ -1051,23 +1051,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kasutaja\\.nuget\\packages\\": {},
+    "C:\\Users\\opilane\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\SeleniumMarken\\SeleniumMarken.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\SeleniumMarken.csproj",
       "projectName": "SeleniumMarken",
-      "projectPath": "C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\SeleniumMarken\\SeleniumMarken.csproj",
-      "packagesPath": "C:\\Users\\kasutaja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\SeleniumMarken\\obj\\",
+      "projectPath": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\SeleniumMarken.csproj",
+      "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kasutaja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1141,7 +1141,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

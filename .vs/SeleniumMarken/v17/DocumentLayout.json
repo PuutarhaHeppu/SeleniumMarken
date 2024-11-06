@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\",
+  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|c:\\users\\kasutaja\\documents\\github\\seleniummarken\\seleniummarken\\firsttestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|c:\\users\\opilane\\source\\repos\\seleniummarken\\seleniummarken\\firsttestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|solutionrelative:seleniummarken\\firsttestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|c:\\users\\kasutaja\\documents\\github\\seleniummarken\\seleniummarken\\seleniummarken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\seleniummarken\\seleniummarken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|solutionrelative:seleniummarken\\seleniummarken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|c:\\users\\kasutaja\\documents\\github\\seleniummarken\\seleniummarken\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\seleniummarken\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|solutionrelative:seleniummarken\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,12 +37,20 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SeleniumMarken.csproj",
-              "DocumentMoniker": "C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\SeleniumMarken\\SeleniumMarken.csproj",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\SeleniumMarken.csproj",
               "RelativeDocumentMoniker": "SeleniumMarken\\SeleniumMarken.csproj",
-              "ToolTip": "C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\SeleniumMarken\\SeleniumMarken.csproj",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\SeleniumMarken.csproj",
               "RelativeToolTip": "SeleniumMarken\\SeleniumMarken.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -52,11 +60,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FirstTestCase.cs",
-              "DocumentMoniker": "C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\SeleniumMarken\\FirstTestCase.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\FirstTestCase.cs",
               "RelativeDocumentMoniker": "SeleniumMarken\\FirstTestCase.cs",
-              "ToolTip": "C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\SeleniumMarken\\FirstTestCase.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\FirstTestCase.cs",
               "RelativeToolTip": "SeleniumMarken\\FirstTestCase.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowD8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T06:45:21.904Z",
               "EditorCaption": ""
@@ -65,13 +73,31 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\SeleniumMarken\\UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\UnitTest1.cs",
               "RelativeDocumentMoniker": "SeleniumMarken\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\SeleniumMarken\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\UnitTest1.cs",
               "RelativeToolTip": "SeleniumMarken\\UnitTest1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T05:58:47.628Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a8466fe-5a05-4f81-ad45-7d7c1316817e}"
             }
           ]
         }

@@ -8,9 +8,9 @@ namespace SeleniumMarken
     {
         static void Main(string[] args)
         {
-            TestHidingButton();
+            //TestHidingButton();
             //TestClickTwice();
-            //TestHiddenButtons();
+            TestHiddenButtons();
         }
 
         private static void TestHidingButton()
