@@ -1,16 +1,22 @@
 using OpenQA.Selenium;
+using OpenQA.Selenium.DevTools.V127.Animation;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Interactions;
+using System.Xml.Linq;
 
 namespace SeleniumMarken
 {
     public class FirstTestCase
     {
+        public event EventHandler? Clicked;
+
         static void Main(string[] args)
         {
             //TestHidingButton();
             //TestClickTwice();
-            TestHiddenButtons();
+            //TestHiddenButtons();
+            //TestClick();
+            TestWaitForAnimiationToEnd();
         }
 
         private static void TestHidingButton()
@@ -61,8 +67,101 @@ namespace SeleniumMarken
 
             IWebElement element = driver.FindElement(By.Id("hideButton"));
             element.Click();
-            IWebElement element2 = driver.FindElement(By.Id("removedButton"));
+            try
+            {
+                IWebElement element2 = driver.FindElement(By.Id("removedButton"));
+            }
+            catch
+            {
+                Console.WriteLine("button2 not found");
+            }
+            try
+            {
+                IWebElement element3 = driver.FindElement(By.Id("zeroWidthButton"));
+            }
+            catch
+            {
+                Console.WriteLine("button3 not found");
+            }
+            try
+            {
+                IWebElement element4 = driver.FindElement(By.Id("overlappedButton"));
+            }
+            catch
+            {
+                Console.WriteLine("button4 not found");
+            }
+            try
+            {
+                IWebElement element5 = driver.FindElement(By.Id("transparentButton"));
+            }
+            catch
+            {
+                Console.WriteLine("button5 not found");
+            }
+            try
+            {
+                IWebElement element6 = driver.FindElement(By.Id("invisibleButton"));
+            }
+            catch
+            {
+                Console.WriteLine("button6 not found");
+            }
+            try
+            {
+                IWebElement element7 = driver.FindElement(By.Id("notdisplayedButton"));
+            }
+            catch
+            {
+                Console.WriteLine("button7 not found");
+            }
+            try
+            {
+                IWebElement element8 = driver.FindElement(By.Id("offscreenButton"));
+            }
+            catch
+            {
+                Console.WriteLine("button8 not found");
+            }
+        }
+        private static void TestClick()
+        {
+            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+
+            FirefoxOptions options = new FirefoxOptions();
+            options.BrowserExecutableLocation = binaryLocation;
+
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            driver.Url = "http://www.uitestingplayground.com/click";
+
+            IWebElement element = driver.FindElement(By.Id("badButton"));
             element.Click();
+            try
+            {
+                element.Click();
+            }
+            catch
+            {
+                Console.WriteLine("Cannot click button");
+            }
+
+        }
+        private static async void TestWaitForAnimiationToEnd()
+        {
+            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+
+            FirefoxOptions options = new FirefoxOptions();
+            options.BrowserExecutableLocation = binaryLocation;
+
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            driver.Url = "http://www.uitestingplayground.com/animation";
+
+            IWebElement element = driver.FindElement(By.Id("animationButton"));
+            element.Click();
+            await 
+            IWebElement element2 = driver.FindElement(By.Id("movingTarget"));
+            element2.Click();
+
 
         }
     }
