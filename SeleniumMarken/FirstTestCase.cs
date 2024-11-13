@@ -16,30 +16,31 @@ namespace SeleniumMarken
             //TestClickTwice();
             //TestHiddenButtons();
             //TestClick();
-            TestWaitForAnimiationToEnd();
+            //TestWaitForButton();
+            //TestTextInput();
         }
-
-        private static void TestHidingButton()
+        [Test]
+        public static void TestHidingButton()
         {
             //koolis
-            //string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
             //kodus
-            string binaryLocation = "C:\\Users\\kasutaja\\Desktop\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+            //string binaryLocation = "C:\\Users\\kasutaja\\Desktop\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
             FirefoxOptions options = new FirefoxOptions();
             options.BrowserExecutableLocation = binaryLocation;
 
             //koolis
-            //IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
             //kodus
-            IWebDriver driver = new FirefoxDriver("C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            //IWebDriver driver = new FirefoxDriver("C:\\Users\\kasutaja\\Documents\\GitHub\\SeleniumMarken\\SeleniumMarken\\drivers", options);
             driver.Url = "http://www.uitestingplayground.com/scrollbars";
 
             IWebElement element = driver.FindElement(By.Id("hidingButton"));
             element.Click();
         }
-
-        private static void TestClickTwice()
+        [Test]
+        public static void TestClickTwice()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
@@ -54,8 +55,8 @@ namespace SeleniumMarken
             actions.DoubleClick(element).Perform();
 
         }
-
-        private static void TestHiddenButtons()
+        [Test]
+        public static void TestHiddenButtons()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
@@ -124,7 +125,8 @@ namespace SeleniumMarken
                 Console.WriteLine("button8 not found");
             }
         }
-        private static void TestClick()
+        [Test]
+        public static void TestClick()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
@@ -146,7 +148,8 @@ namespace SeleniumMarken
             }
 
         }
-        private static async void TestWaitForAnimiationToEnd()
+        [Test]
+        public static void TestWaitForButton()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
@@ -154,14 +157,31 @@ namespace SeleniumMarken
             options.BrowserExecutableLocation = binaryLocation;
 
             IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
-            driver.Url = "http://www.uitestingplayground.com/animation";
+            driver.Url = "http://www.uitestingplayground.com/autowait";
 
-            IWebElement element = driver.FindElement(By.Id("animationButton"));
+            IWebElement element = driver.FindElement(By.Id("applyButton3"));
             element.Click();
-            await 
-            IWebElement element2 = driver.FindElement(By.Id("movingTarget"));
+            Task.Delay(4000).Wait();
+            IWebElement element2 = driver.FindElement(By.Id("target"));
             element2.Click();
 
+        }
+        [Test]
+        public static void TestTextInput()
+        {
+            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+
+            FirefoxOptions options = new FirefoxOptions();
+            options.BrowserExecutableLocation = binaryLocation;
+
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            driver.Url = "http://www.uitestingplayground.com/textinput";
+
+
+            IWebElement element = driver.FindElement(By.Id("newButtonName"));
+            element.SendKeys("uus nupu nimi");
+            IWebElement element2 = driver.FindElement(By.Id("updatingButton"));
+            element2.Click();
 
         }
     }
