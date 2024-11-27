@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U2Xau1UfzLo=",
+  "dgSpecHash": "eMV23esya/HCKFmecpIJ/slRvCejWwduOvLZr6PSdcZlMrqWbzt6PDDKXRkpsFMfd1SmaObnXfriswTZA9G4OQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\SeleniumMarken.csproj",
+  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\SeleniumMarkenREAL\\SeleniumMarken\\SeleniumMarken.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\opilane\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

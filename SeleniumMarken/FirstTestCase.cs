@@ -18,6 +18,8 @@ namespace SeleniumMarken
             //TestClick();
             //TestWaitForButton();
             //TestTextInput();
+            //TestClientViews(); //TC1
+            TestAdminViews(); //TC2
         }
         [Test]
         public static void TestHidingButton()
@@ -182,6 +184,84 @@ namespace SeleniumMarken
             element.SendKeys("uus nupu nimi");
             IWebElement element2 = driver.FindElement(By.Id("updatingButton"));
             element2.Click();
+
+        }
+        [Test]
+        public static void TestClientViews()
+        {
+            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+
+            FirefoxOptions options = new FirefoxOptions();
+            options.BrowserExecutableLocation = binaryLocation;
+
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            driver.Url = "http://localhost:5115/";
+
+
+            IWebElement element = driver.FindElement(By.LinkText("Create Account"));
+            element.Click();
+            IWebElement element2 = driver.FindElement(By.Id("username"));
+            element2.SendKeys("kiurkiur");
+            IWebElement element3 = driver.FindElement(By.Id("password"));
+            element3.SendKeys("kiurkiur");
+            IWebElement element4 = driver.FindElement(By.CssSelector("button[type='submit']"));
+            element4.Click();
+            IWebElement element5 = driver.FindElement(By.LinkText("Cars"));
+            element5.Click();
+            Task.Delay(2000).Wait();
+            IWebElement element6 = driver.FindElement(By.LinkText("Planes"));
+            element6.Click();
+
+        }
+
+        [Test]
+        public static void TestAdminViews()
+        {
+            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+
+            FirefoxOptions options = new FirefoxOptions();
+            options.BrowserExecutableLocation = binaryLocation;
+
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            driver.Url = "http://localhost:5115/";
+
+
+            IWebElement element2 = driver.FindElement(By.Id("username"));
+            element2.SendKeys("Kiur");
+            IWebElement element3 = driver.FindElement(By.Id("password"));
+            element3.SendKeys("Kiur");
+            IWebElement element4 = driver.FindElement(By.CssSelector("input[type='submit']"));
+            element4.Click();
+            IWebElement element5 = driver.FindElement(By.LinkText("Cars"));
+            element5.Click();
+            Task.Delay(2000).Wait();
+            IWebElement element6 = driver.FindElement(By.LinkText("Planes"));
+            element6.Click();
+
+        }
+
+        [Test]
+        public static void TestCreatePlane()
+        {
+            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+
+            FirefoxOptions options = new FirefoxOptions();
+            options.BrowserExecutableLocation = binaryLocation;
+
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            driver.Url = "http://localhost:5115/";
+
+
+            IWebElement element2 = driver.FindElement(By.Id("username"));
+            element2.SendKeys("Kiur");
+            IWebElement element3 = driver.FindElement(By.Id("password"));
+            element3.SendKeys("Kiur");
+            IWebElement element4 = driver.FindElement(By.CssSelector("input[type='submit']"));
+            element4.Click();
+            IWebElement element6 = driver.FindElement(By.LinkText("Planes"));
+            element6.Click();
+            IWebElement element7 = driver.FindElement(By.LinkText("Add"));
+            element7.Click();
 
         }
     }
