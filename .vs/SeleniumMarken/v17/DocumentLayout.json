@@ -1,17 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\SeleniumMarkenREAL\\",
+  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|c:\\users\\opilane\\source\\repos\\seleniummarkenreal\\seleniummarken\\firsttestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|c:\\users\\opilane\\source\\repos\\seleniummarken\\seleniummarken\\firsttestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|solutionrelative:seleniummarken\\firsttestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|c:\\users\\opilane\\source\\repos\\seleniummarkenreal\\seleniummarken\\seleniummarken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|c:\\users\\opilane\\source\\repos\\seleniummarken\\seleniummarken\\seleniummarken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|solutionrelative:seleniummarken\\seleniummarken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SeleniumMarken\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,19 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Bookmark",
@@ -41,27 +38,27 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SeleniumMarken.csproj",
-              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\SeleniumMarkenREAL\\SeleniumMarken\\SeleniumMarken.csproj",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\SeleniumMarken.csproj",
               "RelativeDocumentMoniker": "SeleniumMarken\\SeleniumMarken.csproj",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\SeleniumMarkenREAL\\SeleniumMarken\\SeleniumMarken.csproj",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\SeleniumMarken.csproj",
               "RelativeToolTip": "SeleniumMarken\\SeleniumMarken.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -71,11 +68,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FirstTestCase.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\SeleniumMarkenREAL\\SeleniumMarken\\FirstTestCase.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\FirstTestCase.cs",
               "RelativeDocumentMoniker": "SeleniumMarken\\FirstTestCase.cs",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\SeleniumMarkenREAL\\SeleniumMarken\\FirstTestCase.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\FirstTestCase.cs",
               "RelativeToolTip": "SeleniumMarken\\FirstTestCase.cs",
-              "ViewState": "AQIAAOAAAAAAAAAAAAAswAwBAAAAAAAA",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAIwCQBAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T06:45:21.904Z",
               "EditorCaption": ""
@@ -85,9 +82,9 @@
               "DocumentIndex": 2,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\SeleniumMarken\\SeleniumMarken\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "SeleniumMarken\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\UnitTest1.cs",
-              "RelativeToolTip": "..\\SeleniumMarken\\SeleniumMarken\\UnitTest1.cs",
+              "RelativeToolTip": "SeleniumMarken\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T05:58:47.628Z"
