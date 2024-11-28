@@ -18,12 +18,14 @@ namespace SeleniumMarken
             //TestClick();
             //TestWaitForButton();
             //TestTextInput();
+
+            ///Test Cases:
             //TestLogin(); //TC1
             //TestSignUp(); //TC2
-            TestPlaneView(); //TC3
+            //TestPlaneView(); //TC3
             //TestPlaneClientView(); //TC4
             //TestCarView(); //TC5
-            //TestCarClientView(); //TC6
+            TestCarClientView(); //TC6
         }
         [Test]
         public static void TestHidingButton()
@@ -260,7 +262,7 @@ namespace SeleniumMarken
             element4.Click();
             IWebElement element6 = driver.FindElement(By.LinkText("Planes"));
             element6.Click();
-            IWebElement element7 = driver.FindElement(By.LinkText("Add Car"));
+            IWebElement element7 = driver.FindElement(By.LinkText("Create New Plane"));
             element7.Click();
             IWebElement element8 = driver.FindElement(By.Id("Name"));
             element8.SendKeys("Boeing");
@@ -292,6 +294,107 @@ namespace SeleniumMarken
             IWebElement element21 = driver.FindElement(By.CssSelector("input[type='submit']"));
             element21.Click();
 
+        }
+
+        [Test]
+        public static void TestPlaneClientView()
+        {
+            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+
+            FirefoxOptions options = new FirefoxOptions();
+            options.BrowserExecutableLocation = binaryLocation;
+
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            driver.Url = "http://localhost:5115/";
+
+
+            IWebElement element2 = driver.FindElement(By.Id("username"));
+            element2.SendKeys("Kiur");
+            IWebElement element3 = driver.FindElement(By.Id("password"));
+            element3.SendKeys("Kiur");
+            IWebElement element4 = driver.FindElement(By.CssSelector("input[type='submit']"));
+            element4.Click();
+            IWebElement element6 = driver.FindElement(By.LinkText("Planes Client"));
+            element6.Click();
+            IWebElement element7 = driver.FindElement(By.LinkText("Details"));
+            element7.Click();
+
+        }
+
+        [Test]
+        public static void TestCarView()
+        {
+            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+
+            FirefoxOptions options = new FirefoxOptions();
+            options.BrowserExecutableLocation = binaryLocation;
+
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            driver.Url = "http://localhost:5115/";
+
+
+            IWebElement element2 = driver.FindElement(By.Id("username"));
+            element2.SendKeys("Kiur");
+            IWebElement element3 = driver.FindElement(By.Id("password"));
+            element3.SendKeys("Kiur");
+            IWebElement element4 = driver.FindElement(By.CssSelector("input[type='submit']"));
+            element4.Click();
+            IWebElement element6 = driver.FindElement(By.LinkText("Cars"));
+            element6.Click();
+            IWebElement element7 = driver.FindElement(By.LinkText("Create new car"));
+            element7.Click();
+            IWebElement element8 = driver.FindElement(By.Id("Mark"));
+            element8.SendKeys("Boeing");
+            IWebElement element11 = driver.FindElement(By.Id("Description"));
+            element11.SendKeys("Boeing");
+            IWebElement element12 = driver.FindElement(By.Id("Price"));
+            element12.SendKeys("11");
+            IWebElement element16 = driver.FindElement(By.Id("Model"));
+            element16.SendKeys("Boeing");
+            IWebElement element13 = driver.FindElement(By.Id("Year"));
+            element13.SendKeys("11");
+            IWebElement element14 = driver.FindElement(By.Id("Register"));
+            element14.SendKeys("11");
+            IWebElement element15 = driver.FindElement(By.Id("SerialNumber"));
+            element15.SendKeys("11");
+            IWebElement element17 = driver.FindElement(By.Id("Engine"));
+            element17.SendKeys("Boeing");
+            IWebElement element19 = driver.FindElement(By.Id("Tires"));
+            element19.SendKeys("4");
+            IWebElement element9 = driver.FindElement(By.Id("Seats"));
+            element9.SendKeys("11");
+            IWebElement element10 = driver.FindElement(By.Id("Inspection"));
+            element10.Click();
+            IWebElement element20 = driver.FindElement(By.Id("Files"));
+            string filePath = @"C:\Users\opilane\source\repos\brumbrum.png";
+            element20.SendKeys(filePath);
+            IWebElement element21 = driver.FindElement(By.CssSelector("input[type='submit']"));
+            element21.Click();
+
+        }
+
+        [Test]
+        public static void TestCarClientView()
+        {
+            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+
+            FirefoxOptions options = new FirefoxOptions();
+            options.BrowserExecutableLocation = binaryLocation;
+
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            driver.Url = "http://localhost:5115/";
+
+
+            IWebElement element2 = driver.FindElement(By.Id("username"));
+            element2.SendKeys("Kiur");
+            IWebElement element3 = driver.FindElement(By.Id("password"));
+            element3.SendKeys("Kiur");
+            IWebElement element4 = driver.FindElement(By.CssSelector("input[type='submit']"));
+            element4.Click();
+            IWebElement element6 = driver.FindElement(By.LinkText("Cars Client"));
+            element6.Click();
+            IWebElement element7 = driver.FindElement(By.LinkText("Details"));
+            element7.Click();
 
         }
     }
